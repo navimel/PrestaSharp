@@ -31,6 +31,7 @@ namespace Bukimedia.PrestaSharp.Entities
         public string upc { get; set; }
         public decimal ecotax { get; set; }
         public long minimal_quantity { get; set; }
+        public long max_quantity { get; set; }
         public decimal price { get; set; }
         public decimal wholesale_price { get; set; }
         public string unity { get; set; }
